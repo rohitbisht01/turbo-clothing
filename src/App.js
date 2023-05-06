@@ -65,5 +65,3 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
-
-// use of Switch - once we match our path then it don't render anything else
